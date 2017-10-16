@@ -18,3 +18,8 @@ def assign_rooms(attendees)
     "Hello, #{name}! You'll be assigned to room #{count}!"
   end
 end
+
+def printer(attendees)
+  print(batch_badge_creator(attendees))
+  print(assign_rooms(attendees))
+end
