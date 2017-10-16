@@ -4,7 +4,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  narr=[]
   attendees.each do |name|
-    puts badge_maker(name)
+    narr.push(badge_maker(name))
   end
+  return narr
 end
+
