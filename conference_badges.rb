@@ -10,4 +10,3 @@ def batch_badge_creator(attendees)
   end
   return narr
 end
-
